@@ -8,7 +8,7 @@ export default function News({article}) {
   : '/postimage.webp';
 
   return (
-      <div className="flex items-start gap-[100px] pb-9">
+      <div className="flex justify-center items-start gap-[100px] pb-9">
         <Left article={article} />
         <div 
         className="bg-cover bg-center bg-no-repeat w-64 h-64 mt-4"
